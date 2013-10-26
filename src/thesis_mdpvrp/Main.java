@@ -24,14 +24,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        try {
-           
-            PrintStream pout=new PrintStream("out.txt");
-            pout.println();
-            pout.close();
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        
         // TODO code application logic here
         new dataConv();
     }
